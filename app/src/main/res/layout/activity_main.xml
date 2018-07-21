@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_remote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转远程bundle"/>
+
+    <Button
+        android:id="@+id/bt_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转本地bundle"/>
+
+    <Button
+        android:id="@+id/bt_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更新补丁update"/>
+
+</LinearLayout>
